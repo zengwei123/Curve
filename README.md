@@ -6,13 +6,15 @@
 ![图片2](https://github.com/zengwei123/Curve/blob/master/image/GIF1.gif)<br>
 依赖方法
 ```Android 
+//根目录的gradle
 allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
- 
+ //------------------------------------------------------------------------
+ //app目录的
  dependencies {
 	        implementation 'com.github.zengwei123:Curve:1.5'
 	}
