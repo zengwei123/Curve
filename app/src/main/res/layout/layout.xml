@@ -15,7 +15,7 @@
         app:MaxNum="88"
         app:Radii="100"
         app:Image="@mipmap/but_g1"
-        app:Is="true"
+        app:Is="false"
         app:color2="#ff0000"
         />
 </RelativeLayout>
