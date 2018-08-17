@@ -4,6 +4,19 @@
 首先看看他的效果<br>
 ![图片1](https://github.com/zengwei123/Curve/blob/master/image/GIF.gif)
 ![图片2](https://github.com/zengwei123/Curve/blob/master/image/GIF1.gif)<br>
+依赖方法
+```Android 
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+ dependencies {
+	        implementation 'com.github.zengwei123:Curve:1.5'
+	}
+ ``` 
 有这两种样子曲线的和直线的，下面说使用这个控件的方法<br>
 有这么几个属性<br>
 ![图片3](https://github.com/zengwei123/Curve/blob/master/image/1.png)<br>
