@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurveView">
+        <attr name="MaxNum" format="integer"></attr><!-- 最大属性-->
+        <attr name="MinNum" format="integer"></attr><!-- 最小属性-->
+        <attr name="TextSize" format="integer"></attr><!-- 字体大小-->
+        <attr name="Radii" format="integer"></attr><!-- 半径-->
+        <attr name="Image" format="reference"></attr><!-- 图片-->
+        <!-- 颜色   曲线   填充  字体-->
+        <attr name="color1" format="color"></attr>
+        <attr name="color2" format="color"></attr>
+        <attr name="color3" format="color"></attr>
+        <!--贝塞尔曲线的宽度-->
+        <attr name="width" format="integer"></attr>
+        <!--曲线或者直线-->
+        <attr name="Is" format="boolean"></attr>
+    </declare-styleable>
+</resources>
