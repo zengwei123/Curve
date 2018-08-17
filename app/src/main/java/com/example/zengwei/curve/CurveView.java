@@ -104,7 +104,9 @@ public class CurveView extends View {
             }else{
                 i=Double.parseDouble("0.0"+z);
             }
-            //三阶公式
+            /**
+             *    三阶公式，如果想要画些乱七八糟的线条，这个公式要改，注意上面的不要改
+             */
             x[z] = (1-i)*(1-i)*bwidth+2*i*(1-i)*(width/2)+i*i*(width-bwidth);
             if(Is){
                 y[z] = (1-i)*(1-i)*(height-50)+2*i*(1-i)*0+i*i*(height-50);
@@ -122,6 +124,7 @@ public class CurveView extends View {
         paint.setStyle(Paint.Style.STROKE);
         Path path = new Path();
         path.moveTo((float) bwidth,height-50);
+        //直线或者曲线
         if(Is){
             path.quadTo(width/2,0, width-(float)bwidth,height-50);
         }else{
@@ -129,12 +132,11 @@ public class CurveView extends View {
         }
         canvas.drawPath(path, paint);
         paint.setStyle(Paint.Style.FILL);
-
-        paint.setColor(color3);
         //文字大小及位置
+        paint.setColor(color3);
         paint.setTextSize(size);
         canvas.drawText(sum+"",width/2-size/2,height-65,paint);
-
+        //填充颜色
         paint.setColor(color2);
         for(int iz=0;iz<id;iz++){
             canvas.drawLine((float) x[iz],(float)y[iz],(float)x[iz+1],(float)y[iz+1],paint);
@@ -196,7 +198,7 @@ public class CurveView extends View {
     }
 
     /**
-     * 获取图片并设置大小
+     * 获取图片并设置大小123
      * @param context
      * @param width
      * @param image

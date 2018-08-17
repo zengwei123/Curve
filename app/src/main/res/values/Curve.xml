@@ -6,7 +6,7 @@
         <attr name="TextSize" format="integer"></attr><!-- 字体大小-->
         <attr name="Radii" format="integer"></attr><!-- 半径-->
         <attr name="Image" format="reference"></attr><!-- 图片-->
-        <!-- 颜色   曲线   填充  字体-->
+        <!-- 颜色   曲线   字体-->
         <attr name="color1" format="color"></attr>
         <attr name="color2" format="color"></attr>
         <attr name="color3" format="color"></attr>
