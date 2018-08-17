@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.example.zengwei.curve.CurveView
+        android:id="@+id/curve"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:TextSize="50"
+        app:MinNum="20"
+        app:MaxNum="88"
+        app:Radii="100"
+        app:Image="@mipmap/but_g1"
+        app:Is="true"
+        app:color2="#ff0000"
+        />
+</RelativeLayout>
