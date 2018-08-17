@@ -3,3 +3,5 @@
 这是我直接写的一给自定义控件
 首先看看他的效果<br>
 ![图片1](https://github.com/zengwei123/Curve/blob/master/image/GIF.gif)
+![图片2](https://github.com/zengwei123/Curve/blob/master/image/GIF1.gif)<br>
+有这两种样子曲线的和直线的，使用这个控件的使用方法很简单  
